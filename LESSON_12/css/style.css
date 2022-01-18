@@ -1,0 +1,21 @@
+h1{
+    color:#f48c06;
+    text-align: center;
+}
+a:link{
+    color:#9D0208;
+    text-decoration:none;
+}
+a:visited{
+    color:#9D0208;
+    text-decoration:none;
+}
+/*Mouse sobre el link*/
+a:hover{
+    color:#FFBA08;
+    text-decoration:underline;
+}
+/*Cuando damos click*/
+a:active{
+    color:#fa0d60;
+}
