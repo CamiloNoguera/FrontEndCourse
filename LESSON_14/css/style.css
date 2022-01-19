@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 5px;
+    /*border-spacing: 5px;*/
+}
+caption{
+    color: rgb(170, 21, 21);
+    font-family: cursive, Courier, monospace;
+    font-size: 40px;
+    line-height: 70px;
+}
+th{
+    color:#f1faee;
+    background-color:#1d3557;
+}
+/* renglones pares */
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+/* renglones impares */
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
